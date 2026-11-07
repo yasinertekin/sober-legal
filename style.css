@@ -48,3 +48,9 @@ p, li { color: var(--ink); }
 a { color: var(--accent); }
 nav { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 10px; font-size: 15px; }
 footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+.table-wrap { overflow-x: auto; margin: 12px 0 8px; }
+table { width: 100%; border-collapse: collapse; font-size: 15px; line-height: 1.45; }
+th, td { text-align: left; vertical-align: top; padding: 8px 12px 8px 0; border-bottom: 1px solid var(--line); }
+th { color: var(--muted); font-size: 13px; font-weight: 600; letter-spacing: .02em; }
+mark { background: #F4D35E; color: #1E1A17; padding: 0 3px; border-radius: 3px; }
+a.button { display: inline-block; padding: 10px 18px; border-radius: 999px; background: var(--accent); color: var(--bg); font-weight: 600; text-decoration: none; }
