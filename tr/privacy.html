@@ -11,7 +11,7 @@
 <header>
   <div class="app">Ponu: Kapibara İçki Takibi</div>
   <h1>Gizlilik Politikası</h1>
-  <div class="meta">Yürürlük tarihi: 7 Kasım 2026 · <a href="../privacy.html" hreflang="en">English</a></div>
+  <div class="meta">Yürürlük tarihi: 8 Kasım 2026 · <a href="../privacy.html" hreflang="en">English</a></div>
 </header>
 
 <p>Ponu, Türkiye’de bağımsız bir geliştirici olan Yasin Ertekin tarafından geliştirilen bir iPhone uygulamasıdır. Burada anlatılan bilgilerin veri sorumlusu benim. Bu sayfa KVKK aydınlatma metnini de içerir; onun dışında İngilizce sürümle aynı içeriktedir.</p>
@@ -20,7 +20,7 @@
   <strong>Kısaca</strong>
   <ul>
     <li>Kaydettiklerin iPhone’unda kalır. Ponu’da hesap yoktur; bir sunucuda kopya tutulmaz.</li>
-    <li>Kullanım istatistikleri yalnızca evet dersen Google Firebase’e gider. Hata raporları, hataları düzeltebilmem için her zaman oraya gider. Kaydettiklerin ikisinde de yer almaz.</li>
+    <li>Kullanım istatistikleri ve hata raporları, hangi ekranların işe yaradığını görüp hataları düzeltebilmem için Google Firebase’e gider. Kaydettiklerin ikisinde de yer almaz. Kullanım istatistiklerini Ayarlar’dan kapatabilirsin.</li>
     <li>Reklam yok, takip yok; bilgilerini satmam.</li>
     <li>Ödemeleri Apple alır. Aboneliği Adapty yürütür; teknik ve satın alma bilgilerini alır, kaydettiklerini almaz.</li>
     <li>Verilerini uygulamadan dışa aktarabilir ve silebilirsin.</li>
@@ -37,19 +37,19 @@
 <h2 id="analytics">Kullanım istatistikleri ve hata raporları</h2>
 <p>Ponu, hangi ekranların işe yaradığını ve uygulamanın neden çöktüğünü görmek için Google Analytics for Firebase ve Firebase Crashlytics’i kullanır.</p>
 <ul>
-  <li><strong>Kullanım istatistikleri için Ponu önce sorar.</strong> Cevap vermeden önce hiçbir şey gönderilmez; hayır dersen de gönderilmez. Cevabını Ayarlar › Tercihler’deki Kullanım verilerini paylaş ile istediğin zaman değiştirebilirsin. Kapatmak kullanım istatistiklerini ve uzaktan ayarları durdurur, iPhone’undaki kimliklerini sıfırlar.</li>
-  <li><strong>Hata raporları her zaman açıktır,</strong> hataları bulup düzeltebilmem için. Kaydettiklerin bunlarda hiçbir zaman yer almaz. Çökmeden hemen önceki kullanım olayları yalnızca evet dediysen eklenir.</li>
+  <li><strong>Kullanım istatistikleri ilk açılıştan itibaren açıktır.</strong> Takma adlıdır: adına değil rastgele bir kimliğe bağlıdır ve ne ya da ne kadar içtiğini hiçbir zaman içermez. Ayarlar › Tercihler’deki Kullanım verilerini paylaş ile istediğin zaman kapatabilirsin; bu, kullanım istatistiklerini durdurur ve iPhone’undaki kimliğini sıfırlar.</li>
+  <li><strong>Hata raporları her zaman açıktır,</strong> hataları bulup düzeltebilmem için. Kaydettiklerin bunlarda hiçbir zaman yer almaz. Çökmeden hemen önceki kullanım olayları, kullanım istatistikleri açıkken eklenir.</li>
   <li><strong>18 yaş altı:</strong> bu cevap kurulumu bitirir; kullanım istatistiklerini ve hata raporlarını kapatır.</li>
 </ul>
-<p>Evet dersen Firebase kullanım olaylarını (bir başlangıç adımı, kaydedilen bir kayıt, bir çark çevirme ya da ürünü ve fiyatıyla bir satın alma gibi), birkaç etiketi (uygulama dili, sürüm, geniş aralıklarla plan haftası, seslerin ve araç takımının açık olup olmadığı) ve ağ adresinden çıkarılan yaklaşık konumunu (ülke ve bölge) alır. Her zaman ise hata raporlarını (uygulamanın ne yaptığı, hata türleri, cihaz modeli, iOS ve uygulama sürümü, boş bellek), oturum başlangıç zamanlarını ve rastgele bir kurulum kimliğini alır.</p>
+<p>Kullanım istatistikleri açıkken Firebase kullanım olaylarını (hangi başlangıç adımını ya da ekranı gördüğün, hangi düğmeye dokunduğun, bir kaydın kaydedildiği, bir çark çevirme, bir deneme başlangıcı ya da ürünü ve fiyatıyla bir satın alma gibi), birkaç etiketi (uygulama dili, sürüm, geniş aralıklarla plan haftası ve plan günü, seslerin ve araç takımının açık olup olmadığı, gördüğün abonelik ekranı sürümü ve abonelik ile kullanım istatistikleri birlikte okunabilsin diye Adapty’nin rastgele profil kimliği) ve ağ adresinden çıkarılan yaklaşık konumunu (ülke ve bölge) alır. Her zaman ise hata raporlarını (uygulamanın ne yaptığı, hata türleri, cihaz modeli, iOS ve uygulama sürümü, boş bellek), oturum başlangıç zamanlarını ve rastgele bir kurulum kimliğini alır.</p>
 <p>Firebase ne ve ne kadar içtiğini, sayılarını, hedeflerini, başlangıç cevaplarını, cinsiyetini ya da yaşını, notlarını, isimleri ve belirlediğin içki fiyatını hiçbir zaman almaz. Reklam özellikleri kapalıdır; Ponu Firebase’e ne reklam kimliğini ne de satıcıya özel kimliği (IDFV) verir. Bu telefondaki verileri sil, kurulum kimliğini de siler.</p>
 
-<h2 id="settings-security">Uzaktan ayarlar ve saat kontrolü</h2>
-<p>Ponu, yalnızca kullanım verisine evet dedikten sonra, Firebase Remote Config’ten uzaktan ayarları (ödüller ve süreler gibi sayılar) indirir ve ödüller gerçek tarihe göre işlesin diye bir Ponu sunucu işlevine saati sorar. Remote Config kurulum kimliğini, ülke, dil, saat dilimi, iOS ve uygulama sürümünü, yukarıdaki etiketleri ve uygulamanın ilk açıldığı zamanı alır. Saat kontrolü senin hakkında hiçbir şey göndermez; Google’ın kayıtları ağ adresini görür. Firebase App Check, isteklerin gerçek Ponu uygulamasından geldiğini Apple’ın App Attest’iyle doğrulayarak saat kontrolünü korur.</p>
+<h2 id="settings-security">Saat kontrolü</h2>
+<p>Ponu, kullanım istatistikleri açıkken, ödüller gerçek tarihe göre işlesin diye bir Ponu sunucu işlevine saati sorar. Saat kontrolü senin hakkında hiçbir şey göndermez; Google’ın kayıtları ağ adresini görür. Firebase App Check, isteklerin gerçek Ponu uygulamasından geldiğini Apple’ın App Attest’iyle doğrulayarak saat kontrolünü korur.</p>
 
 <h2 id="subscriptions">Abonelikler</h2>
 <p>Ponu Premium otomatik yenilenen bir aboneliktir. Satın alma, ödeme ve iptali Apple yürütür; ödeme bilgilerin bana hiç gelmez.</p>
-<p>Ponu, abonelik ekranlarını göstermek ve aboneliğini kontrol etmek için <a href="https://adapty.io">Adapty</a>’yi (Adapty Tech Inc., ABD) kullanır. İlk açılıştan itibaren, kullanım verisine cevabın ne olursa olsun, Adapty şunları alır:</p>
+<p>Ponu, abonelik ekranlarını göstermek ve aboneliğini kontrol etmek için <a href="https://adapty.io">Adapty</a>’yi (Adapty Tech Inc., ABD) kullanır. İlk açılıştan itibaren, kullanım istatistikleri anahtarı ne olursa olsun, Adapty şunları alır:</p>
 <ul>
   <li>bu uygulama için oluşturulan bir kimlik ve satıcıya özel kimlik (IDFV);</li>
   <li>cihaz modeli, ekran boyutu, iOS ve uygulama sürümü, dil, saat dilimi, App Store ülkesi, kurulum tarihi ve uygulama açılışları;</li>
@@ -71,9 +71,9 @@
   <thead><tr><th>Hizmet</th><th>Neyi işler</th><th>Nerede</th></tr></thead>
   <tbody>
     <tr><td>Firebase Crashlytics</td><td>Hata raporları, oturum başlangıç zamanları, kurulum kimliği</td><td>ABD ve diğer ülkeler</td></tr>
-    <tr><td>Google Analytics for Firebase</td><td>Kullanım olayları, etiketler, yaklaşık konum; yalnızca evet dedikten sonra</td><td>ABD ve diğer ülkeler</td></tr>
-    <tr><td>Firebase Remote Config ve App Check</td><td>Kurulum kimliği, teknik bilgiler, etiketler, cihaz doğrulaması; yalnızca evet dedikten sonra</td><td>ABD ve diğer ülkeler</td></tr>
-    <tr><td>Google Cloud Functions</td><td>Ödüller için saat kontrolü istekleri, yalnızca kullanım verisini paylaşıyorsan; istek kayıtlarında ağ adresin</td><td>AB (Belçika)</td></tr>
+    <tr><td>Google Analytics for Firebase</td><td>Kullanım olayları, etiketler, yaklaşık konum; kullanım istatistikleri açıkken</td><td>ABD ve diğer ülkeler</td></tr>
+    <tr><td>Firebase App Check</td><td>Kurulum kimliği, teknik bilgiler, cihaz doğrulaması; kullanım istatistikleri açıkken</td><td>ABD ve diğer ülkeler</td></tr>
+    <tr><td>Google Cloud Functions</td><td>Ödüller için saat kontrolü istekleri, kullanım istatistikleri açıkken; istek kayıtlarında ağ adresin</td><td>AB (Belçika)</td></tr>
     <tr><td>Adapty</td><td>Satın almalar, IDFV, cihaz bilgileri, uygulama açılışları, abonelik ekranları, reklam atıf belirteci</td><td>ABD</td></tr>
     <tr><td>Apple</td><td>App Store satın almaları</td><td>Apple’ın kendi politikası</td></tr>
     <tr><td>Microsoft (Outlook.com)</td><td>Bana gönderdiğin e-postalar</td><td>Microsoft’un kendi politikası</td></tr>
@@ -108,24 +108,23 @@
 <h2 id="legal-bases">Hukuki sebepler</h2>
 <ul>
   <li><strong>Abonelik</strong> (Apple, Adapty): istediğin hizmeti sunmak; bir sözleşmenin kurulması ve ifası. KVKK md. 5/2-c; GDPR md. 6/1-b.</li>
-  <li><strong>Kullanım istatistikleri ve uzaktan ayarlar:</strong> açık rızan. KVKK md. 5/1; GDPR md. 6/1-a. Anahtarı kapatarak rızanı geri alırsın.</li>
-  <li><strong>Hata raporları, abonelik istatistikleri ve reklam atfı, güvenlik</strong> (Crashlytics, Adapty, App Check, istek kayıtları): güvenilir ve güvenli bir uygulama ile hangi abonelik ekranlarının ve kampanyaların işe yaradığını bilme konusundaki meşru menfaatim. KVKK md. 5/2-f; GDPR md. 6/1-f.</li>
+  <li><strong>Kullanım istatistikleri, saat kontrolü, hata raporları, abonelik istatistikleri ve reklam atfı, güvenlik</strong> (Crashlytics, Adapty, App Check, istek kayıtları): güvenilir ve güvenli bir uygulama ile hangi ekranların, başlangıç adımlarının, abonelik ekranlarının ve kampanyaların işe yaradığını bilme konusundaki meşru menfaatim. İstatistikler takma adlıdır, içki verisi içermez ve Ayarlar’daki anahtar kullanım istatistiklerini istediğin zaman durdurur. KVKK md. 5/2-f; GDPR md. 6/1-f.</li>
   <li><strong>Taleplerin ve yasal yükümlülükler:</strong> KVKK md. 5/2-c ve 5/2-ç; GDPR md. 6/1-b ve 6/1-c.</li>
 </ul>
 
 <h2 id="transfers">Yurt dışına aktarım</h2>
-<p>Türkiye’deyim. Saat kontrolü AB’de (europe-west1) çalışır. Crashlytics, Analytics, Remote Config ve App Check, Google’ın ABD’deki ve diğer ülkelerdeki sunucularında; Adapty ABD’de çalışır. Bu aktarımlar Google ve Adapty’nin veri işleme sözleşmelerindeki standart sözleşme maddelerine dayanır. Türkiye’deki kullanıcılar için bu verilerin Google ve Adapty’ye gönderilmesi, KVKK’nın 9. maddesi anlamında yurt dışına aktarımdır. Aktarım hakkında bana sorabilir ya da bu maddelerin bir kopyasını isteyebilirsin.</p>
+<p>Türkiye’deyim. Saat kontrolü AB’de (europe-west1) çalışır. Crashlytics, Analytics ve App Check, Google’ın ABD’deki ve diğer ülkelerdeki sunucularında; Adapty ABD’de çalışır. Bu aktarımlar Google ve Adapty’nin veri işleme sözleşmelerindeki standart sözleşme maddelerine dayanır. Türkiye’deki kullanıcılar için bu verilerin Google ve Adapty’ye gönderilmesi, KVKK’nın 9. maddesi anlamında yurt dışına aktarımdır. Aktarım hakkında bana sorabilir ya da bu maddelerin bir kopyasını isteyebilirsin.</p>
 
 <h2 id="rights">Hakların</h2>
-<p>Hakkında tuttuğum verileri ve bir kopyasını isteyebilir, bunları düzelttirebilir, sildirebilir, kısıtlatabilir ya da taşıtabilirsin. Rızanı istediğin zaman geri alabilirsin. Bir ay içinde (KVKK başvurularında 30 gün içinde) ve ücretsiz yanıtlarım. Ponu senin hakkında hukuki ya da benzer sonuç doğuran otomatik kararlar vermez.</p>
-<p><strong>İtiraz hakkın:</strong> meşru menfaatime dayanan her işlemeye bana yazarak itiraz edebilirsin. Hata raporlarının uygulamada anahtarı yoktur; uygulamayı silmek onları durdurur.</p>
+<p>Hakkında tuttuğum verileri ve bir kopyasını isteyebilir, bunları düzelttirebilir, sildirebilir, kısıtlatabilir ya da taşıtabilirsin. Kullanım istatistiklerini istediğin zaman kapatabilirsin. Bir ay içinde (KVKK başvurularında 30 gün içinde) ve ücretsiz yanıtlarım. Ponu senin hakkında hukuki ya da benzer sonuç doğuran otomatik kararlar vermez.</p>
+<p><strong>İtiraz hakkın:</strong> meşru menfaatime dayanan her işlemeye bana yazarak itiraz edebilirsin. Kullanım istatistikleri için Ayarlar › Tercihler’deki anahtar bunu hemen yapar. Hata raporlarının uygulamada anahtarı yoktur; uygulamayı silmek onları durdurur.</p>
 <p>Yaşadığın yerdeki veri koruma otoritesine de şikâyette bulunabilirsin: Türkiye’de <a href="https://www.kvkk.gov.tr">Kişisel Verileri Koruma Kurulu</a>, AB’de <a href="https://www.edpb.europa.eu/about-edpb/about-edpb/members_en">otoritelerin listesi</a>, Birleşik Krallık’ta <a href="https://ico.org.uk/make-a-complaint/">ICO</a>, İsviçre’de <a href="https://www.edoeb.admin.ch">FDPIC</a>.</p>
 
 <h2 id="kvkk">KVKK aydınlatma metni</h2>
 <p>Bu bölüm, 6698 sayılı Kişisel Verilerin Korunması Kanunu’nun (KVKK) 10. maddesi uyarınca aydınlatma metnidir ve bu sayfanın diğer bölümleriyle birlikte okunur.</p>
 <ul>
   <li><strong>Veri sorumlusu:</strong> Yasin Ertekin, Türkiye; e-posta: <a href="mailto:yasinertekinn@outlook.com">yasinertekinn@outlook.com</a>; telefon: <a href="tel:+905398539635">+90 539 853 96 35</a>.</li>
-  <li><strong>İşlenen veriler ve amaçları:</strong> Kullanım istatistikleri ve hata raporları, Uzaktan ayarlar ve saat kontrolü ve Abonelikler bölümlerinde; bana yazdığın e-postalar, sorularını yanıtlamak için.</li>
+  <li><strong>İşlenen veriler ve amaçları:</strong> Kullanım istatistikleri ve hata raporları, Saat kontrolü ve Abonelikler bölümlerinde; bana yazdığın e-postalar, sorularını yanıtlamak için.</li>
   <li><strong>Toplama yöntemi:</strong> uygulama aracılığıyla, elektronik ortamda ve otomatik yollarla; bana yazdığında e-postayla.</li>
   <li><strong>Hukuki sebepler:</strong> Hukuki sebepler bölümünde.</li>
   <li><strong>Aktarılan kişiler:</strong> Google (Firebase ve Google Cloud), Adapty, Apple ve e-postalar için Microsoft (Outlook.com); yurt dışına aktarım için Yurt dışına aktarım bölümü.</li>
