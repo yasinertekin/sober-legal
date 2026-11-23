@@ -11,7 +11,7 @@
 <header>
   <div class="app">Ponu: Kapibara İçki Takibi</div>
   <h1>Gizlilik Politikası</h1>
-  <div class="meta">Yürürlük tarihi: 10 Kasım 2026 · <a href="../privacy.html" hreflang="en">English</a></div>
+  <div class="meta">Yürürlük tarihi: 23 Kasım 2026 · <a href="../privacy.html" hreflang="en">English</a></div>
 </header>
 
 <p>Ponu, Türkiye’de bağımsız bir geliştirici olan Yasin Ertekin tarafından geliştirilen bir iPhone uygulamasıdır. Burada anlatılan bilgilerin veri sorumlusu benim. Bu sayfa KVKK aydınlatma metnini de içerir; onun dışında İngilizce sürümle aynı içeriktedir.</p>
@@ -21,7 +21,7 @@
   <ul>
     <li>Kaydettiklerin iPhone’unda kalır. Ponu’da hesap yoktur; bir sunucuda kopya tutulmaz.</li>
     <li>Kullanım istatistikleri ve hata raporları, hangi ekranların işe yaradığını görüp hataları düzeltebilmem için Google Firebase’e gider. Kaydettiklerin ikisinde de yer almaz. Kullanım istatistiklerini Ayarlar’dan kapatabilirsin.</li>
-    <li>Reklam yok, takip yok; bilgilerini satmam.</li>
+    <li>Ponu reklam göstermez, bilgilerini satmam. Hangi reklamlarımın işe yaradığını görmek için Ponu, Meta’nın SDK’sını kullanır: Meta’ya kurulumları, açılışları ve satın almaları bildirir, kaydettiklerini asla. Meta, cihazının reklam kimliğini yalnızca iOS sorduğunda takibe izin verirsen kullanabilir.</li>
     <li>Ödemeleri Apple alır. Aboneliği Adapty yürütür; teknik ve satın alma bilgilerini alır, kaydettiklerini almaz.</li>
     <li>Verilerini uygulamadan dışa aktarabilir ve silebilirsin.</li>
   </ul>
@@ -66,7 +66,7 @@
 <p>Ana Ekran araç takımı, yalnızca Ponu’nun ve araç takımının açabildiği küçük bir dosyayı okur. Dosyada araç takımının o gün gösterdikleri vardır, ne içtiğin yoktur; ne Ponu ne de araç takımı onu bir yere gönderir. Ana Ekran’ını gören herkes araç takımını görür.</p>
 
 <h2 id="where">Verilerin nereye gider</h2>
-<p>Google ve Adapty verileri benim adıma, veri işleme sözleşmelerine göre işler. Apple ve e-posta için Microsoft kendi politikalarına göre çalışır. Bilgilerini satmam.</p>
+<p>Google ve Adapty verileri benim adıma, veri işleme sözleşmelerine göre işler. Meta uygulama olaylarını kendi İşletme Araçları Koşulları’na göre alır. Apple ve e-posta için Microsoft kendi politikalarına göre çalışır. Bilgilerini satmam.</p>
 <div class="table-wrap">
 <table>
   <thead><tr><th>Hizmet</th><th>Neyi işler</th><th>Nerede</th></tr></thead>
@@ -77,12 +77,13 @@
     <tr><td>Google Cloud Functions</td><td>Ödüller için saat kontrolü istekleri, kullanım istatistikleri açıkken; istek kayıtlarında ağ adresin</td><td>AB (Belçika)</td></tr>
     <tr><td>Adapty</td><td>Satın almalar, IDFV, cihaz bilgileri, uygulama açılışları, abonelik ekranları, reklam atıf belirteci</td><td>ABD</td></tr>
     <tr><td>Apple</td><td>App Store satın almaları</td><td>Apple’ın kendi politikası</td></tr>
+    <tr><td>Meta (Facebook SDK)</td><td>Kurulumlar, uygulama açılışları, App Store satın almaları (ürün ve fiyat), abonelik ekranı ilk göründüğünde bir olay, cihaz bilgileri ve kimlikleri; reklam kimliği yalnızca takibe izin verirsen. Kullanım istatistikleri açıkken</td><td>İrlanda, ABD ve diğer ülkeler</td></tr>
     <tr><td>Microsoft (Outlook.com)</td><td>Bana gönderdiğin e-postalar</td><td>Microsoft’un kendi politikası</td></tr>
   </tbody>
 </table>
 </div>
 
-<p>Ponu’yu bir reklamını gördükten sonra kurduysan Apple’ın SKAdNetwork’ü reklam ağına bir kurulumun yapıldığını ve yalın bir sayı olarak nereye kadar gelindiğini (örneğin bir ücretsiz haftanın başladığını) bildirebilir; sana ya da cihazına ait bir kimlik ve kaydettiklerinle ilgili hiçbir şey içermez. Ponu hiçbir reklam ağının yazılımını taşımaz, reklam göstermez ve bir kurulumu bir reklamla kendisi eşleştirmez.</p>
+<p>Ponu, Facebook ve Instagram’da reklam verir. Uygulamadaki Meta SDK’sı Meta’ya Ponu’nun kurulduğunu, açıldığını ve hangi aboneliğin alındığını bildirir; böylece Meta hangi reklamların insanları getirdiğini görebilir ve reklamları benzer kişilere gösterebilir. Meta, kurulumları ve satın almaları kimlik taşımayan Apple SKAdNetwork’ü üzerinden de sayar. iOS sorduğunda takibe izin verirsen Meta bu olayları cihazının reklam kimliğiyle ilişkilendirebilir; bunu istediğin zaman iOS Ayarlar › Gizlilik ve Güvenlik › Takip’ten değiştirebilirsin. Ayarlar’da kullanım istatistiklerini kapatmak ya da 18 yaş altı cevabı Meta SDK’sını da durdurur. Meta kaydettiklerini, cevaplarını, planını ya da ismini hiçbir zaman almaz. Meta’nın politikası: <a href="https://www.facebook.com/privacy/policy/">facebook.com/privacy/policy</a>.</p>
 
 <h2 id="retention">Ne kadar saklanır</h2>
 <div class="table-wrap">
@@ -94,6 +95,7 @@
     <tr><td>Hata raporları</td><td>90 gün</td></tr>
     <tr><td>Kurulum kimliği</td><td>Bu telefondaki verileri sil’i kullanana kadar; Google onu sonra 180 gün içinde kaldırır</td></tr>
     <tr><td>Google’ın istek kayıtlarındaki ağ adresleri</td><td>Yaklaşık 30 gün</td></tr>
+    <tr><td>Meta’daki uygulama olayları</td><td>Meta’nın kendi koşul ve politikasına göre</td></tr>
     <tr><td>Adapty kaydın</td><td>Benden silinmesini isteyene kadar. Kaydettiğin hiçbir şeyi içermez.</td></tr>
     <tr><td>Bana gönderdiğin e-postalar</td><td>Yanıtlamak için gerektiği kadar; istersen silerim</td></tr>
   </tbody>
@@ -102,7 +104,8 @@
 
 <h2 id="choices">Seçimlerin</h2>
 <ul>
-  <li><strong>Kullanım istatistikleri:</strong> Ayarlar › Tercihler’deki Kullanım verilerini paylaş anahtarı.</li>
+  <li><strong>Kullanım istatistikleri:</strong> Ayarlar › Tercihler’deki Kullanım verilerini paylaş anahtarı. Meta SDK’sını da durdurur.</li>
+  <li><strong>Takip:</strong> iOS bir kez sorar; istediğin zaman iOS Ayarlar › Gizlilik ve Güvenlik › Takip’ten değiştirebilirsin.</li>
   <li><strong>Dışa aktarma:</strong> Ayarlar › Profil’deki Verilerimi dışa aktar ile verilerini dosya olarak (JSON ve CSV) alırsın.</li>
   <li><strong>Bu telefondaki verileri sil</strong> (Ayarlar › Profil; abonelik ekranında Cihazdaki tüm verileri sil): girdiklerini, ilerlemeni ve ayarlarını siler. Kullanım verisine verdiğin “hayır” gibi birkaç cihaz ayarı kalır. Aboneliğine dokunmaz.</li>
   <li><strong>Abonelik:</strong> iOS Ayarlar › adın › Abonelikler’den yönetebilir ya da iptal edebilirsin. Verilerini silmek aboneliği iptal etmez.</li>
@@ -111,12 +114,13 @@
 <h2 id="legal-bases">Hukuki sebepler</h2>
 <ul>
   <li><strong>Abonelik</strong> (Apple, Adapty): istediğin hizmeti sunmak; bir sözleşmenin kurulması ve ifası. KVKK md. 5/2-c; GDPR md. 6/1-b.</li>
+  <li><strong>Meta ile reklam ölçümü:</strong> takibe izin verdiysen açık rızan (KVKK md. 5/1; GDPR md. 6/1-a); vermediysen hangi reklamların işe yaradığını bilme konusundaki meşru menfaatim (KVKK md. 5/2-f; GDPR md. 6/1-f).</li>
   <li><strong>Kullanım istatistikleri, saat kontrolü, hata raporları, abonelik istatistikleri ve reklam atfı, güvenlik</strong> (Crashlytics, Adapty, App Check, istek kayıtları): güvenilir ve güvenli bir uygulama ile hangi ekranların, başlangıç adımlarının, abonelik ekranlarının ve kampanyaların işe yaradığını bilme konusundaki meşru menfaatim. İstatistikler takma adlıdır, içki verisi içermez ve Ayarlar’daki anahtar kullanım istatistiklerini istediğin zaman durdurur. KVKK md. 5/2-f; GDPR md. 6/1-f.</li>
   <li><strong>Taleplerin ve yasal yükümlülükler:</strong> KVKK md. 5/2-c ve 5/2-ç; GDPR md. 6/1-b ve 6/1-c.</li>
 </ul>
 
 <h2 id="transfers">Yurt dışına aktarım</h2>
-<p>Türkiye’deyim. Saat kontrolü AB’de (europe-west1) çalışır. Crashlytics, Analytics ve App Check, Google’ın ABD’deki ve diğer ülkelerdeki sunucularında; Adapty ABD’de çalışır. Bu aktarımlar Google ve Adapty’nin veri işleme sözleşmelerindeki standart sözleşme maddelerine dayanır. Türkiye’deki kullanıcılar için bu verilerin Google ve Adapty’ye gönderilmesi, KVKK’nın 9. maddesi anlamında yurt dışına aktarımdır. Aktarım hakkında bana sorabilir ya da bu maddelerin bir kopyasını isteyebilirsin.</p>
+<p>Türkiye’deyim. Saat kontrolü AB’de (europe-west1) çalışır. Crashlytics, Analytics ve App Check, Google’ın ABD’deki ve diğer ülkelerdeki sunucularında; Adapty ABD’de, Meta İrlanda, ABD ve diğer ülkelerde çalışır. Bu aktarımlar Google, Adapty ve Meta’nın sözleşmelerindeki standart sözleşme maddelerine dayanır. Türkiye’deki kullanıcılar için bu verilerin Google, Adapty ve Meta’ya gönderilmesi, KVKK’nın 9. maddesi anlamında yurt dışına aktarımdır. Aktarım hakkında bana sorabilir ya da bu maddelerin bir kopyasını isteyebilirsin.</p>
 
 <h2 id="rights">Hakların</h2>
 <p>Hakkında tuttuğum verileri ve bir kopyasını isteyebilir, bunları düzelttirebilir, sildirebilir, kısıtlatabilir ya da taşıtabilirsin. Kullanım istatistiklerini istediğin zaman kapatabilirsin. Bir ay içinde (KVKK başvurularında 30 gün içinde) ve ücretsiz yanıtlarım. Ponu senin hakkında hukuki ya da benzer sonuç doğuran otomatik kararlar vermez.</p>
@@ -130,7 +134,7 @@
   <li><strong>İşlenen veriler ve amaçları:</strong> Kullanım istatistikleri ve hata raporları, Saat kontrolü ve Abonelikler bölümlerinde; bana yazdığın e-postalar, sorularını yanıtlamak için.</li>
   <li><strong>Toplama yöntemi:</strong> uygulama aracılığıyla, elektronik ortamda ve otomatik yollarla; bana yazdığında e-postayla.</li>
   <li><strong>Hukuki sebepler:</strong> Hukuki sebepler bölümünde.</li>
-  <li><strong>Aktarılan kişiler:</strong> Google (Firebase ve Google Cloud), Adapty, Apple ve e-postalar için Microsoft (Outlook.com); yurt dışına aktarım için Yurt dışına aktarım bölümü.</li>
+  <li><strong>Aktarılan kişiler:</strong> Google (Firebase ve Google Cloud), Adapty, Meta, Apple ve e-postalar için Microsoft (Outlook.com); yurt dışına aktarım için Yurt dışına aktarım bölümü.</li>
 </ul>
 <p>KVKK’nın 11. maddesi uyarınca; kişisel verilerinin işlenip işlenmediğini öğrenme, işlenmişse buna ilişkin bilgi isteme, işlenme amacını ve amacına uygun kullanılıp kullanılmadığını öğrenme, yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri bilme, eksik veya yanlış işlenmişse düzeltilmesini isteme, KVKK’nın 7. maddesindeki şartlar çerçevesinde silinmesini veya yok edilmesini isteme, bu işlemlerin verilerin aktarıldığı üçüncü kişilere bildirilmesini isteme, yalnızca otomatik sistemlerle analiz edilmesi sonucunda aleyhine bir sonuç çıkmasına itiraz etme ve kanuna aykırı işleme nedeniyle zarara uğrarsan zararın giderilmesini isteme haklarına sahipsin.</p>
 <p>Başvurunu <a href="mailto:yasinertekinn@outlook.com">yasinertekinn@outlook.com</a> adresine e-postayla iletebilirsin. Dışa aktarmayı ve silmeyi uygulamada da yapabilirsin. En geç 30 gün içinde ve ücretsiz yanıtlarım. Başvurun reddedilirse, yanıtımı yetersiz bulursan ya da süresinde yanıt vermezsem, yanıtımı öğrendiğin tarihten itibaren 30 gün ve her hâlde başvuru tarihinden itibaren 60 gün içinde Kişisel Verileri Koruma Kurulu’na şikâyette bulunabilirsin (<a href="https://www.kvkk.gov.tr">kvkk.gov.tr</a>).</p>

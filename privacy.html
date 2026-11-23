@@ -11,7 +11,7 @@
 <header>
   <div class="app">Ponu: Capybara Drink Tracker</div>
   <h1>Privacy Policy</h1>
-  <div class="meta">Effective 10 November 2026 · <a href="tr/privacy.html" hreflang="tr">Türkçe</a></div>
+  <div class="meta">Effective 23 November 2026 · <a href="tr/privacy.html" hreflang="tr">Türkçe</a></div>
 </header>
 
 <p>Ponu is an iPhone app made by Yasin Ertekin ("I", "me"), an independent developer in Türkiye. I am the data controller for the information described here.</p>
@@ -21,7 +21,7 @@
   <ul>
     <li>What you log stays on your iPhone. Ponu has no account and keeps no copy on a server.</li>
     <li>Usage statistics and crash reports go to Google Firebase, so I can see which screens work and fix bugs. Neither includes what you log. You can turn usage statistics off in Settings.</li>
-    <li>No ads, no tracking, and I don't sell your information.</li>
+    <li>Ponu shows no ads and I don't sell your information. To learn which of my ads work, Ponu uses Meta's SDK: it tells Meta about installs, app opens and purchases, never what you log. Meta may use your device's advertising identifier only if you allow tracking when iOS asks.</li>
     <li>Apple handles payments. Adapty runs the subscription and receives technical and purchase information, not what you log.</li>
     <li>You can export your data and delete it in the app.</li>
   </ul>
@@ -66,7 +66,7 @@
 <p>The Home Screen widget reads a small file that only Ponu and its widget can open. It holds what the widget shows for the day, never what you drank, and neither Ponu nor the widget sends it anywhere. Anyone who sees your Home Screen sees the widget.</p>
 
 <h2 id="where">Where your data goes</h2>
-<p>Google and Adapty process data for me under their data processing terms. Apple, and Microsoft for email, act under their own policies. I don't sell your information.</p>
+<p>Google and Adapty process data for me under their data processing terms. Meta receives app events under its Business Tools Terms. Apple, and Microsoft for email, act under their own policies. I don't sell your information.</p>
 <div class="table-wrap">
 <table>
   <thead><tr><th>Service</th><th>What it handles</th><th>Where</th></tr></thead>
@@ -76,13 +76,14 @@
     <tr><td>Firebase App Check</td><td>Installation ID, technical details, device attestation; while usage statistics are on</td><td>United States and other countries</td></tr>
     <tr><td>Google Cloud Functions</td><td>Requests to check the time for rewards, while usage statistics are on; your network address in the request logs</td><td>EU (Belgium)</td></tr>
     <tr><td>Adapty</td><td>Purchases, IDFV, device details, app opens, subscription screens, ad attribution token</td><td>United States</td></tr>
+    <tr><td>Meta (Facebook SDK)</td><td>Installs, app opens, App Store purchases (product and price), one event when the subscription screen first shows, device details and identifiers; the advertising identifier only if you allow tracking. While usage statistics are on</td><td>Ireland, United States and other countries</td></tr>
     <tr><td>Apple</td><td>App Store purchases</td><td>Apple's own policy</td></tr>
     <tr><td>Microsoft (Outlook.com)</td><td>Emails you send me</td><td>Microsoft's own policy</td></tr>
   </tbody>
 </table>
 </div>
 
-<p>If you installed Ponu after seeing an ad for it, Apple's SKAdNetwork may tell the ad network that an install and, as a plain count, how far it got (for example that a free week started), with no identifier for you or your device and nothing about what you log. Ponu contains no ad network's software, shows no ads and matches no install to an ad itself.</p>
+<p>Ponu advertises on Facebook and Instagram. Meta's SDK in the app tells Meta that Ponu was installed and opened and which subscription was bought, so Meta can show which ads brought people in and show them to similar people. Meta also counts installs and purchases through Apple's SKAdNetwork, which carries no identifier. If you allow tracking when iOS asks, Meta may link these events to your device's advertising identifier; you can change that any time in iOS Settings › Privacy &amp; Security › Tracking. Turning usage statistics off in Settings, or answering Under 18, stops the Meta SDK too. Meta never receives what you log, your answers, your plan or your name. Meta's policy: <a href="https://www.facebook.com/privacy/policy/">facebook.com/privacy/policy</a>.</p>
 
 <h2 id="retention">How long it's kept</h2>
 <div class="table-wrap">
@@ -94,6 +95,7 @@
     <tr><td>Crash reports</td><td>90 days</td></tr>
     <tr><td>Installation ID</td><td>Until you use Delete data on this phone; Google then removes it within 180 days</td></tr>
     <tr><td>Network addresses in Google's request logs</td><td>About 30 days</td></tr>
+    <tr><td>App events at Meta</td><td>Under Meta's own terms and policy</td></tr>
     <tr><td>Your Adapty record</td><td>Until you ask me to remove it. It holds nothing you logged.</td></tr>
     <tr><td>Emails to me</td><td>As long as needed to answer them; ask me and I'll delete them</td></tr>
   </tbody>
@@ -102,7 +104,8 @@
 
 <h2 id="choices">Your choices</h2>
 <ul>
-  <li><strong>Usage statistics:</strong> the Share usage data switch in Settings › Preferences.</li>
+  <li><strong>Usage statistics:</strong> the Share usage data switch in Settings › Preferences. It also stops the Meta SDK.</li>
+  <li><strong>Tracking:</strong> iOS asks once; change it any time in iOS Settings › Privacy &amp; Security › Tracking.</li>
   <li><strong>Export:</strong> Export my data in Settings › Profile gives you your data as files (JSON and CSV).</li>
   <li><strong>Delete data on this phone</strong> (Settings › Profile; Delete all local data on the subscription screen) erases what you entered, your progress and your settings. A few device settings stay, such as a no to usage data. Your subscription is not touched.</li>
   <li><strong>Subscription:</strong> manage or cancel it in iOS Settings › your name › Subscriptions. Deleting your data does not cancel it.</li>
@@ -112,11 +115,12 @@
 <ul>
   <li><strong>Subscription</strong> (Apple, Adapty): to provide the service you signed up for. GDPR Art. 6(1)(b); KVKK Art. 5(2)(c).</li>
   <li><strong>Usage statistics, the time check, crash reports, subscription statistics and ad attribution, security</strong> (Crashlytics, Adapty, App Check, request logs): my legitimate interest in a reliable, safe app and in knowing which screens, setup steps, subscription screens and campaigns work. The statistics are pseudonymous and hold no drinking data, and the switch in Settings stops usage statistics at any time. GDPR Art. 6(1)(f); KVKK Art. 5(2)(f).</li>
+  <li><strong>Ad measurement with Meta:</strong> with tracking allowed, your consent (GDPR Art. 6(1)(a); KVKK Art. 5(1)); otherwise my legitimate interest in knowing which ads work (GDPR Art. 6(1)(f); KVKK Art. 5(2)(f)).</li>
   <li><strong>Your requests and legal duties:</strong> GDPR Art. 6(1)(b) and (c); KVKK Art. 5(2)(c) and (ç).</li>
 </ul>
 
 <h2 id="transfers">Transfers to other countries</h2>
-<p>I'm based in Türkiye. The time check runs in the EU (europe-west1). Crashlytics, Analytics and App Check run on Google's servers in the United States and other countries; Adapty runs in the United States. These transfers rely on the standard contractual clauses in Google's and Adapty's data processing terms. For users in Türkiye, sending this data to Google and Adapty is a transfer abroad in the sense of Article 9 of KVKK. You can ask me about the transfer or for a copy of the clauses.</p>
+<p>I'm based in Türkiye. The time check runs in the EU (europe-west1). Crashlytics, Analytics and App Check run on Google's servers in the United States and other countries; Adapty runs in the United States; Meta in Ireland, the United States and other countries. These transfers rely on the standard contractual clauses in Google's, Adapty's and Meta's terms. For users in Türkiye, sending this data to Google, Adapty and Meta is a transfer abroad in the sense of Article 9 of KVKK. You can ask me about the transfer or for a copy of the clauses.</p>
 
 <h2 id="rights">Your rights</h2>
 <p>You can ask what I hold about you, for a copy, and to correct, delete, restrict or move it. You can turn usage statistics off at any time. I answer within one month (30 days under KVKK), free of charge. Ponu makes no automated decisions with legal or similar effects about you.</p>
